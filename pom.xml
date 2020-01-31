@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.roman</groupId>
-    <artifactId>web-server</artifactId>
+    <artifactId>web-requestReceiver</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -22,5 +22,13 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
