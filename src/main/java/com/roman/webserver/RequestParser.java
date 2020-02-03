@@ -59,7 +59,7 @@ public class RequestParser {
             }
 
         }
-        //buffer contains trailing '\n' or "\n\r\n"
+        //buffer contains trailing "\n\r\n"
         byte[] bytes = buffer.toByteArray();
         int realSize=bytes.length;
         if(bytes.length>="\n\r\n".length()){
