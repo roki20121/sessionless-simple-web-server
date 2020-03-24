@@ -22,7 +22,7 @@ public class RequestReceiver implements Runnable {
                 Socket accepted = serverSocket.accept();
                 System.out.println(accepted.getPort());
                 int rem = servingQueue.remainingCapacity();
-                System.out.println("rem "+rem);
+                System.out.println("remaining "+rem);
                 servingQueue.put(accepted);
             } catch (IOException | InterruptedException e) {
                 e.printStackTrace();

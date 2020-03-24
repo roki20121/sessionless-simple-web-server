@@ -39,7 +39,6 @@ public class RequestParser {
         ByteArrayOutputStream buffer = new ByteArrayOutputStream();
 
         int symbol;
-        int sequentialNewLines = 0;
 
         boolean afterNewLine = false;
 

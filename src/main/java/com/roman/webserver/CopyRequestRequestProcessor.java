@@ -6,12 +6,9 @@ import com.roman.webserver.responce.Response;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 public class CopyRequestRequestProcessor implements RequestProcessor {
-
-    private Socket socket;
 
 
     @Override
